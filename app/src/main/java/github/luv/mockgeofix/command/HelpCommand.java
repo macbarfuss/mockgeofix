@@ -41,7 +41,7 @@ public class HelpCommand implements Command {
             helpText.append(
               "if it came from an emulated GPS modem. <sentence> must begin with '$GP'. only\r\n");
             helpText.append(
-              "'$GPGGA' and '$GPRCM' sentences are supported at the moment.\r\n");
+              "'$GPGGA' and '$GPRMC' sentences are supported at the moment.\r\n");
         } else if (param.equals("geo fix")) {
             helpText.append("'geo fix <longitude> <latitude> [<altitude> [<satellites>]]'\r\n");
             helpText.append(" allows you to send a simple GPS fix to the emulated system.\r\n");
